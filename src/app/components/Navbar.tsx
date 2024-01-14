@@ -40,7 +40,7 @@ export const Navbar = () => {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="text-black hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium"
+                        className="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-gray-700"
                       >
                         {item.name}
                       </a>
@@ -52,13 +52,13 @@ export const Navbar = () => {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2 flex flex-col">
+            <div className="flex flex-col space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className="text-black hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-black hover:text-gray-700"
                 >
                   {item.name}
                 </Disclosure.Button>

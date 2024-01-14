@@ -1,7 +1,6 @@
-
 export const Jumbotron = () => {
   return (
-    <div className="flex flex-col items-center text-center my-12 py-12 bg-gray-200">
+    <div className="my-12 flex flex-col items-center bg-gray-200 py-12 text-center">
       <p className="text-3xl sm:text-5xl">Welcome to Bamboo Studio</p>
       <p>A creative space for innovative designs.</p>
       <a

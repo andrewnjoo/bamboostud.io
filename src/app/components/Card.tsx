@@ -5,8 +5,8 @@ export type CardProps = {
 
 export const Card: React.FC<CardProps> = ({ title, description }) => {
   return (
-    <div className="border rounded-xl p-4 sm:min-h-[150px]">
-      <h5 className="text-2xl mb-2">{title}</h5>
+    <div className="rounded-xl border p-4 sm:min-h-[150px]">
+      <h5 className="mb-2 text-2xl">{title}</h5>
       <p className="">{description}</p>
     </div>
   );

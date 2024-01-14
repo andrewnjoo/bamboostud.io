@@ -24,13 +24,13 @@ export const Services = () => {
         className="mt-4 flex flex-col items-center justify-center p-3"
         id="services"
       >
-        <div className="text-2xl sm:text-4xl my-4">Our Services</div>
+        <div className="my-4 text-2xl sm:text-4xl">Our Services</div>
         <img
           src="/coders.jpg"
-          className="rounded-xl max-w-[400px]"
+          className="max-w-[400px] rounded-xl"
           alt="Coders"
         />
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-12">
+        <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
           {services.map((service) => (
             <Card
               key={service.title}
