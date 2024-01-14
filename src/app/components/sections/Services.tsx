@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { Card, CardProps } from "./Card";
+import { Card, CardProps } from "@/app/components/cards/Card";
+import { classNames, headingClass } from "@/lib/style";
 
 const services: CardProps[] = [
   {
@@ -24,7 +25,7 @@ export const Services = () => {
         className="mt-4 flex flex-col items-center justify-center p-3"
         id="services"
       >
-        <div className="my-4 text-2xl sm:text-4xl">Our Services</div>
+        <h2 className={classNames(headingClass, "my-4")}>Our Services</h2>
         <img
           src="/coders.jpg"
           className="max-w-[400px] rounded-xl"
