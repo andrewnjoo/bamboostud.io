@@ -4,13 +4,13 @@ import { TeamCard } from "@/app/components/cards/TeamCard";
 const team = [
   {
     name: "Andrew Njoo",
-    skills: ["Next.js", "Ruby on Rails", "React", "TypeScript"],
+    skills: ["Next.js", "Ruby on Rails", "React", "TypeScript", "Go", "Node.js"],
     img: "https://avatars.githubusercontent.com/u/22807629?v=4",
     previousCompanies: ["Amazon", "Inovo"],
   },
   {
     name: "Deborah Ong",
-    skills: ["Ruby on Rails", "React", "Tailwind"],
+    skills: ["Ruby on Rails", "React", "Tailwind", "PHP", "Scala"],
     img: "https://avatars.githubusercontent.com/u/59413856?v=4",
     previousCompanies: ["Etsy", "Flexport", "Shopify"],
   },
