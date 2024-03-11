@@ -5,11 +5,11 @@ import { classNames, headingClass } from "@/lib/style";
 
 const services: CardProps[] = [
   {
-    title: "Web Design",
+    title: "Frontend Development",
     description: "We create stunning and responsive websites.",
   },
   {
-    title: "Ruby on Rails",
+    title: "Backend Development",
     description: "From scratch to production, we have the expertise.",
   },
   {
