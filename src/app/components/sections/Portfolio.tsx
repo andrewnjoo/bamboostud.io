@@ -14,7 +14,7 @@ export const Portfolio = () => {
             title="XpenseTrackr"
             href="https://xpensetrackr.com"
             description="Expense tracking app built with Express and React."
-            imgHref="https://raw.githubusercontent.com/adnjoo/XpenseTrackr/main/docs/scrn.png"
+            imgHref="https://raw.githubusercontent.com/andrewnjoo/XpenseTrackr/main/docs/scrn.png"
           />
           <PortfolioCard
             title="SmallTrack"
