@@ -11,8 +11,8 @@ export const Portfolio = () => {
         </h2>
         <div className="flex flex-col gap-8 sm:flex-row">
           <PortfolioCard
-            title="XpenseTrackr"
-            href="https://xpensetrackr.com"
+            title="XTrack"
+            href="https://xtrack.ing"
             description="Expense tracking app built with Express and React."
             imgHref="https://raw.githubusercontent.com/andrewnjoo/XpenseTrackr/main/docs/scrn.png"
           />
