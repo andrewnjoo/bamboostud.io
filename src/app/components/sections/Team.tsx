@@ -14,6 +14,12 @@ const team = [
     img: "https://avatars.githubusercontent.com/u/59413856?v=4",
     previousCompanies: ["Etsy", "Flexport", "Shopify"],
   },
+  {
+    name: "Devin",
+    skills: ["100+ languages"],
+    img: "/devin.jpg",
+    previousCompanies: ["All companies"],
+  },
 ];
 
 export const Team = () => {
