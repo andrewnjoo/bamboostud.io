@@ -17,7 +17,7 @@ const team = [
   {
     name: "Devin",
     skills: ["100+ languages"],
-    img: "/devin.jpg",
+    img: "/devin.jpeg",
     previousCompanies: ["All companies"],
   },
 ];
