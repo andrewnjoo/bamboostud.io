@@ -9,7 +9,7 @@ export const mdxComponents = {
   p: (props: any) => <p className='my-4' {...props} />,
   a: (props: any) => (
     <a
-      className='underline text-blue-500'
+      className='underline'
       href={props.href}
       target='_blank'
       rel='noopener noreferrer'
